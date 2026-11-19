@@ -1,0 +1,352 @@
+{
+  "name": "Texas Hold'em odds dataset",
+  "description": "Exact five-card hand frequencies and drawing equities for Texas Hold'em, computed deterministically.",
+  "source": "lib/poker-math.ts",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "generatedAt": "2026-06-27",
+  "totalFiveCardCombos": 2598960,
+  "handProbabilities": [
+    {
+      "handType": "royalFlush",
+      "rank": 1,
+      "combinations": 4,
+      "probability": 0.0000015390771693292702,
+      "probabilityPct": "0.0002%",
+      "oddsAgainst": "649739.0 : 1"
+    },
+    {
+      "handType": "straightFlush",
+      "rank": 2,
+      "combinations": 36,
+      "probability": 0.000013851694523963431,
+      "probabilityPct": "0.0014%",
+      "oddsAgainst": "72192.3 : 1"
+    },
+    {
+      "handType": "fourOfAKind",
+      "rank": 3,
+      "combinations": 624,
+      "probability": 0.00024009603841536616,
+      "probabilityPct": "0.0240%",
+      "oddsAgainst": "4164.0 : 1"
+    },
+    {
+      "handType": "fullHouse",
+      "rank": 4,
+      "combinations": 3744,
+      "probability": 0.0014405762304921968,
+      "probabilityPct": "0.1441%",
+      "oddsAgainst": "693.2 : 1"
+    },
+    {
+      "handType": "flush",
+      "rank": 5,
+      "combinations": 5108,
+      "probability": 0.001965401545233478,
+      "probabilityPct": "0.1965%",
+      "oddsAgainst": "507.8 : 1"
+    },
+    {
+      "handType": "straight",
+      "rank": 6,
+      "combinations": 10200,
+      "probability": 0.003924646781789639,
+      "probabilityPct": "0.3925%",
+      "oddsAgainst": "253.8 : 1"
+    },
+    {
+      "handType": "threeOfAKind",
+      "rank": 7,
+      "combinations": 54912,
+      "probability": 0.02112845138055222,
+      "probabilityPct": "2.1128%",
+      "oddsAgainst": "46.3 : 1"
+    },
+    {
+      "handType": "twoPair",
+      "rank": 8,
+      "combinations": 123552,
+      "probability": 0.0475390156062425,
+      "probabilityPct": "4.7539%",
+      "oddsAgainst": "20.0 : 1"
+    },
+    {
+      "handType": "onePair",
+      "rank": 9,
+      "combinations": 1098240,
+      "probability": 0.4225690276110444,
+      "probabilityPct": "42.2569%",
+      "oddsAgainst": "1.4 : 1"
+    },
+    {
+      "handType": "highCard",
+      "rank": 10,
+      "combinations": 1302540,
+      "probability": 0.5011773940345369,
+      "probabilityPct": "50.1177%",
+      "oddsAgainst": "1.0 : 1"
+    }
+  ],
+  "outsEquity": [
+    {
+      "outs": 1,
+      "afterFlop": {
+        "approxPct": "4%",
+        "exactPct": "4.26%",
+        "exact": 4.255319148936176
+      },
+      "afterTurn": {
+        "approxPct": "2%",
+        "exactPct": "2.17%",
+        "exact": 2.1739130434782608
+      }
+    },
+    {
+      "outs": 2,
+      "afterFlop": {
+        "approxPct": "8%",
+        "exactPct": "8.42%",
+        "exact": 8.418131359851976
+      },
+      "afterTurn": {
+        "approxPct": "4%",
+        "exactPct": "4.35%",
+        "exact": 4.3478260869565215
+      }
+    },
+    {
+      "outs": 3,
+      "afterFlop": {
+        "approxPct": "12%",
+        "exactPct": "12.49%",
+        "exact": 12.488436632747446
+      },
+      "afterTurn": {
+        "approxPct": "6%",
+        "exactPct": "6.52%",
+        "exact": 6.521739130434782
+      }
+    },
+    {
+      "outs": 4,
+      "afterFlop": {
+        "approxPct": "16%",
+        "exactPct": "16.47%",
+        "exact": 16.466234967622572
+      },
+      "afterTurn": {
+        "approxPct": "8%",
+        "exactPct": "8.70%",
+        "exact": 8.695652173913043
+      }
+    },
+    {
+      "outs": 5,
+      "afterFlop": {
+        "approxPct": "20%",
+        "exactPct": "20.35%",
+        "exact": 20.351526364477344
+      },
+      "afterTurn": {
+        "approxPct": "10%",
+        "exactPct": "10.87%",
+        "exact": 10.869565217391305
+      }
+    },
+    {
+      "outs": 6,
+      "afterFlop": {
+        "approxPct": "24%",
+        "exactPct": "24.14%",
+        "exact": 24.14431082331174
+      },
+      "afterTurn": {
+        "approxPct": "12%",
+        "exactPct": "13.04%",
+        "exact": 13.043478260869565
+      }
+    },
+    {
+      "outs": 7,
+      "afterFlop": {
+        "approxPct": "28%",
+        "exactPct": "27.84%",
+        "exact": 27.84458834412581
+      },
+      "afterTurn": {
+        "approxPct": "14%",
+        "exactPct": "15.22%",
+        "exact": 15.217391304347828
+      }
+    },
+    {
+      "outs": 8,
+      "afterFlop": {
+        "approxPct": "32%",
+        "exactPct": "31.45%",
+        "exact": 31.452358926919523
+      },
+      "afterTurn": {
+        "approxPct": "16%",
+        "exactPct": "17.39%",
+        "exact": 17.391304347826086
+      }
+    },
+    {
+      "outs": 9,
+      "afterFlop": {
+        "approxPct": "36%",
+        "exactPct": "34.97%",
+        "exact": 34.96762257169288
+      },
+      "afterTurn": {
+        "approxPct": "18%",
+        "exactPct": "19.57%",
+        "exact": 19.565217391304348
+      }
+    },
+    {
+      "outs": 10,
+      "afterFlop": {
+        "approxPct": "40%",
+        "exactPct": "38.39%",
+        "exact": 38.39037927844588
+      },
+      "afterTurn": {
+        "approxPct": "20%",
+        "exactPct": "21.74%",
+        "exact": 21.73913043478261
+      }
+    },
+    {
+      "outs": 11,
+      "afterFlop": {
+        "approxPct": "44%",
+        "exactPct": "41.72%",
+        "exact": 41.720629047178534
+      },
+      "afterTurn": {
+        "approxPct": "22%",
+        "exactPct": "23.91%",
+        "exact": 23.91304347826087
+      }
+    },
+    {
+      "outs": 12,
+      "afterFlop": {
+        "approxPct": "48%",
+        "exactPct": "44.96%",
+        "exact": 44.95837187789085
+      },
+      "afterTurn": {
+        "approxPct": "24%",
+        "exactPct": "26.09%",
+        "exact": 26.08695652173913
+      }
+    },
+    {
+      "outs": 13,
+      "afterFlop": {
+        "approxPct": "52%",
+        "exactPct": "48.10%",
+        "exact": 48.10360777058279
+      },
+      "afterTurn": {
+        "approxPct": "26%",
+        "exactPct": "28.26%",
+        "exact": 28.26086956521739
+      }
+    },
+    {
+      "outs": 14,
+      "afterFlop": {
+        "approxPct": "56%",
+        "exactPct": "51.16%",
+        "exact": 51.15633672525439
+      },
+      "afterTurn": {
+        "approxPct": "28%",
+        "exactPct": "30.43%",
+        "exact": 30.434782608695656
+      }
+    },
+    {
+      "outs": 15,
+      "afterFlop": {
+        "approxPct": "60%",
+        "exactPct": "54.12%",
+        "exact": 54.11655874190564
+      },
+      "afterTurn": {
+        "approxPct": "30%",
+        "exactPct": "32.61%",
+        "exact": 32.608695652173914
+      }
+    },
+    {
+      "outs": 16,
+      "afterFlop": {
+        "approxPct": "64%",
+        "exactPct": "56.98%",
+        "exact": 56.984273820536544
+      },
+      "afterTurn": {
+        "approxPct": "32%",
+        "exactPct": "34.78%",
+        "exact": 34.78260869565217
+      }
+    },
+    {
+      "outs": 17,
+      "afterFlop": {
+        "approxPct": "68%",
+        "exactPct": "59.76%",
+        "exact": 59.75948196114709
+      },
+      "afterTurn": {
+        "approxPct": "34%",
+        "exactPct": "36.96%",
+        "exact": 36.95652173913043
+      }
+    },
+    {
+      "outs": 18,
+      "afterFlop": {
+        "approxPct": "72%",
+        "exactPct": "62.44%",
+        "exact": 62.44218316373728
+      },
+      "afterTurn": {
+        "approxPct": "36%",
+        "exactPct": "39.13%",
+        "exact": 39.130434782608695
+      }
+    },
+    {
+      "outs": 19,
+      "afterFlop": {
+        "approxPct": "76%",
+        "exactPct": "65.03%",
+        "exact": 65.03237742830711
+      },
+      "afterTurn": {
+        "approxPct": "38%",
+        "exactPct": "41.30%",
+        "exact": 41.30434782608695
+      }
+    },
+    {
+      "outs": 20,
+      "afterFlop": {
+        "approxPct": "80%",
+        "exactPct": "67.53%",
+        "exact": 67.53006475485661
+      },
+      "afterTurn": {
+        "approxPct": "40%",
+        "exactPct": "43.48%",
+        "exact": 43.47826086956522
+      }
+    }
+  ]
+}
